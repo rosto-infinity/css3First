@@ -1,0 +1,41 @@
+*,
+ ::before,
+ ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 37px;
+    text-align: center;
+}
+
+body {
+    background: url(../flexbox/z.jpg) no-repeat fixed center/cover;
+    height: 200vh;
+    /* background: blue; */
+}
+
+.bloc {
+    margin: 100px auto 100px;
+    padding: 0;
+    max-width: 1300px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+}
+
+.item {
+    height: 200px;
+    background: red;
+    padding: 20px;
+    border-radius: 5px;
+    color: #ffd001;
+    text-transform: capitalize;
+}
+
+h1 {
+    margin: 100px 0 0 0;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    text-shadow: -4px 0px 6px #ffd000;
+}
