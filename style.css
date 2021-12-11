@@ -28,9 +28,10 @@ body {
     height: 200px;
     background: red;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 5px 40px 5px;
     color: #ffd001;
     text-transform: capitalize;
+    bottom: 3px solid black;
 }
 
 h1 {
